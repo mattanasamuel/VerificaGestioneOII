@@ -1,0 +1,552 @@
+[
+    {
+        "id": 195452,
+        "name": "Enrico Masiero",
+        "is_eligible": true,
+        "is_approved": true,
+        "approved_at": "2023-12-10T09:47:06.496084+00:00",
+        "approved_by": null,
+        "created_at": "2023-12-10T09:47:06.499903+00:00",
+        "members": [
+            {
+                "id": 205410,
+                "user": {
+                    "id": 62578,
+                    "name": "Enrico",
+                    "surname": "Masiero",
+                    "email": "Enrico.Masiero@edu.iisleviponti.it",
+                    "birth_date": "2008-05-22",
+                    "gender": "M",
+                    "fiscal_code": ""
+                },
+                "role": null,
+                "class_year": 3,
+                "section": "AIN",
+                "created_at": "2023-12-10T09:47:06.503322+00:00"
+            }
+        ],
+        "school": {
+            "id": 1228,
+            "external_id": "VEIS00300B",
+            "name": "Ettore Majorana",
+            "type": "Istituto Istruzione Superiore",
+            "email": "VEIS00300B@istruzione.it",
+            "website": "www.itisdavinci.it",
+            "location": {
+                "name": "Istituto Istruzione Superiore Ettore Majorana",
+                "address": "Via Matteotti 42 A/1",
+                "postal_code": "30035",
+                "city": {
+                    "name": "Mirano",
+                    "province": {
+                        "id": "VE",
+                        "name": "Venezia",
+                        "region": {
+                            "id": "VEN",
+                            "name": "Veneto",
+                            "country": {
+                                "id": "IT",
+                                "name": "Italia"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        
+        "school_subscription": {
+            "id": 8917,
+            "created_at": "2023-12-04T13:14:25.605327+00:00",
+            "contact": {
+                "user": {
+                    "name": "Fabio",
+                    "surname": "Michieletto",
+                    "email": "fabio.michieletto@edu.iisleviponti.it"
+                }
+            }
+        }
+    },
+    {
+        "id": 195452,
+        "name": "Enrico Masiero",
+        "is_eligible": true,
+        "is_approved": true,
+        "approved_at": "2023-12-10T09:47:06.496084+00:00",
+        "approved_by": null,
+        "created_at": "2023-12-10T09:47:06.499903+00:00",
+        "members": [
+            {
+                "id": 205410,
+                "user": {
+                    "id": 62578,
+                    "name": "Enrico",
+                    "surname": "Masiero",
+                    "email": "Enrico.Masiero@edu.iisleviponti.it",
+                    "birth_date": "2008-05-22",
+                    "gender": "M",
+                    "fiscal_code": ""
+                },
+                "role": null,
+                "class_year": 3,
+                "section": "AIN",
+                "created_at": "2023-12-10T09:47:06.503322+00:00"
+            }
+        ],
+        "school": {
+            "id": 1228,
+            "external_id": "VEIS02700X",
+            "name": "Levi-Ponti",
+            "type": "Istituto Istruzione Superiore",
+            "email": "veis02700x@istruzione.it",
+            "website": "www.itisdavinci.it",
+            "location": {
+                "name": "Istituto Istruzione Superiore Levi-Ponti",
+                "address": "Via Matteotti 42 A/1",
+                "postal_code": "30035",
+                "city": {
+                    "name": "Mirano",
+                    "province": {
+                        "id": "VE",
+                        "name": "Venezia",
+                        "region": {
+                            "id": "VEN",
+                            "name": "Veneto",
+                            "country": {
+                                "id": "IT",
+                                "name": "Italia"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        
+        "school_subscription": {
+            "id": 8917,
+            "created_at": "2023-12-04T13:14:25.605327+00:00",
+            "contact": {
+                "user": {
+                    "name": "Fabio",
+                    "surname": "Michieletto",
+                    "email": "fabio.michieletto@edu.iisleviponti.it"
+                }
+            }
+        }
+    },
+    {
+        "id": 195930,
+        "name": "Samuel Mattana",
+        "is_eligible": true,
+        "is_approved": true,
+        "approved_at": "2023-12-10T12:06:42.351845+00:00",
+        "approved_by": null,
+        "created_at": "2023-12-10T12:06:42.357467+00:00",
+        "members": [
+            {
+                "id": 205888,
+                "user": {
+                    "id": 63540,
+                    "name": "Samuel",
+                    "surname": "Mattana",
+                    "email": "samuel.mattana@edu.iisleviponti.it",
+                    "birth_date": "2007-01-08",
+                    "gender": "M",
+                    "fiscal_code": "MTTSML07A08G224S"
+                },
+                "role": null,
+                "class_year": 4,
+                "section": "BIN",
+                "created_at": "2023-12-10T12:06:42.362073+00:00"
+            }
+        ],
+        "school": {
+            "id": 1228,
+            "external_id": "VEIS02700X",
+            "name": "Levi-Ponti",
+            "type": "Istituto Istruzione Superiore",
+            "email": "veis02700x@istruzione.it",
+            "website": "www.itisdavinci.it",
+            "location": {
+                "name": "Istituto Istruzione Superiore Levi-Ponti",
+                "address": "Via Matteotti 42 A/1",
+                "postal_code": "30035",
+                "city": {
+                    "name": "Mirano",
+                    "province": {
+                        "id": "VE",
+                        "name": "Venezia",
+                        "region": {
+                            "id": "VEN",
+                            "name": "Veneto",
+                            "country": {
+                                "id": "IT",
+                                "name": "Italia"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "school_subscription": {
+            "id": 8917,
+            "created_at": "2023-12-04T13:14:25.605327+00:00",
+            "contact": {
+                "user": {
+                    "name": "Fabio",
+                    "surname": "Michieletto",
+                    "email": "fabio.michieletto@edu.iisleviponti.it"
+                }
+            }
+        }
+    },
+    {
+        "id": 196308,
+        "name": "Achille Renato Beretta",
+        "is_eligible": true,
+        "is_approved": true,
+        "approved_at": "2023-12-11T13:03:57.884032+00:00",
+        "approved_by": {
+            "name": "Fabio",
+            "surname": "Michieletto",
+            "email": "fabio.michieletto@edu.iisleviponti.it"
+        },
+        "created_at": "2023-12-10T15:56:08.666462+00:00",
+        "members": [
+            {
+                "id": 206266,
+                "user": {
+                    "id": 70862,
+                    "name": "Achille Renato",
+                    "surname": "Beretta",
+                    "email": "achille.beretta@edu.iisleviponti.it",
+                    "birth_date": "2007-12-10",
+                    "gender": "M",
+                    "fiscal_code": "BRTCLL07T10F241I"
+                },
+                "role": null,
+                "class_year": 4,
+                "section": "AAT",
+                "created_at": "2023-12-10T15:56:08.669888+00:00"
+            }
+        ],
+        "school": {
+            "id": 1228,
+            "external_id": "VEIS02700X",
+            "name": "Levi-Ponti",
+            "type": "Istituto Istruzione Superiore",
+            "email": "veis02700x@istruzione.it",
+            "website": "www.itisdavinci.it",
+            "location": {
+                "name": "Istituto Istruzione Superiore Levi-Ponti",
+                "address": "Via Matteotti 42 A/1",
+                "postal_code": "30035",
+                "city": {
+                    "name": "Mirano",
+                    "province": {
+                        "id": "VE",
+                        "name": "Venezia",
+                        "region": {
+                            "id": "VEN",
+                            "name": "Veneto",
+                            "country": {
+                                "id": "IT",
+                                "name": "Italia"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "school_subscription": {
+            "id": 8917,
+            "created_at": "2023-12-04T13:14:25.605327+00:00",
+            "contact": {
+                "user": {
+                    "name": "Fabio",
+                    "surname": "Michieletto",
+                    "email": "fabio.michieletto@edu.iisleviponti.it"
+                }
+            }
+        }
+    },
+    {
+        "id": 196747,
+        "name": "Adrian Buruiana",
+        "is_eligible": true,
+        "is_approved": true,
+        "approved_at": "2023-12-11T13:03:58.779554+00:00",
+        "approved_by": {
+            "name": "Fabio",
+            "surname": "Michieletto",
+            "email": "fabio.michieletto@edu.iisleviponti.it"
+        },
+        "created_at": "2023-12-10T21:08:52.948440+00:00",
+        "members": [
+            {
+                "id": 206705,
+                "user": {
+                    "id": 71212,
+                    "name": "Adrian",
+                    "surname": "Buruiana",
+                    "email": "adrian.buruiana@edu.iisleviponti.it",
+                    "birth_date": "2007-12-12",
+                    "gender": "M",
+                    "fiscal_code": "BRNDRN07T12Z140P"
+                },
+                "role": null,
+                "class_year": 3,
+                "section": "CIN",
+                "created_at": "2023-12-10T21:08:52.951771+00:00"
+            }
+        ],
+        "school": {
+            "id": 1228,
+            "external_id": "VEIS02700X",
+            "name": "Levi-Ponti",
+            "type": "Istituto Istruzione Superiore",
+            "email": "veis02700x@istruzione.it",
+            "website": "www.itisdavinci.it",
+            "location": {
+                "name": "Istituto Istruzione Superiore Levi-Ponti",
+                "address": "Via Matteotti 42 A/1",
+                "postal_code": "30035",
+                "city": {
+                    "name": "Mirano",
+                    "province": {
+                        "id": "VE",
+                        "name": "Venezia",
+                        "region": {
+                            "id": "VEN",
+                            "name": "Veneto",
+                            "country": {
+                                "id": "IT",
+                                "name": "Italia"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "school_subscription": {
+            "id": 8917,
+            "created_at": "2023-12-04T13:14:25.605327+00:00",
+            "contact": {
+                "user": {
+                    "name": "Fabio",
+                    "surname": "Michieletto",
+                    "email": "fabio.michieletto@edu.iisleviponti.it"
+                }
+            }
+        }
+    },
+    {
+        "id": 196745,
+        "name": "Nicol\u00f2 Carraro",
+        "is_eligible": true,
+        "is_approved": true,
+        "approved_at": "2023-12-11T13:04:00.017688+00:00",
+        "approved_by": {
+            "name": "Fabio",
+            "surname": "Michieletto",
+            "email": "fabio.michieletto@edu.iisleviponti.it"
+        },
+        "created_at": "2023-12-10T21:07:46.079782+00:00",
+        "members": [
+            {
+                "id": 206703,
+                "user": {
+                    "id": 71233,
+                    "name": "Nicol\u00f2",
+                    "surname": "Carraro",
+                    "email": "nicolo.carraro@edu.iisleviponti.it",
+                    "birth_date": "2008-06-25",
+                    "gender": "M",
+                    "fiscal_code": ""
+                },
+                "role": null,
+                "class_year": 3,
+                "section": "CIN",
+                "created_at": "2023-12-10T21:07:46.084085+00:00"
+            }
+        ],
+        "school": {
+            "id": 1228,
+            "external_id": "VEIS02700X",
+            "name": "Levi-Ponti",
+            "type": "Istituto Istruzione Superiore",
+            "email": "veis02700x@istruzione.it",
+            "website": "www.itisdavinci.it",
+            "location": {
+                "name": "Istituto Istruzione Superiore Levi-Ponti",
+                "address": "Via Matteotti 42 A/1",
+                "postal_code": "30035",
+                "city": {
+                    "name": "Mirano",
+                    "province": {
+                        "id": "VE",
+                        "name": "Venezia",
+                        "region": {
+                            "id": "VEN",
+                            "name": "Veneto",
+                            "country": {
+                                "id": "IT",
+                                "name": "Italia"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "school_subscription": {
+            "id": 8917,
+            "created_at": "2023-12-04T13:14:25.605327+00:00",
+            "contact": {
+                "user": {
+                    "name": "Fabio",
+                    "surname": "Michieletto",
+                    "email": "fabio.michieletto@edu.iisleviponti.it"
+                }
+            }
+        }
+    },
+    {
+        "id": 192921,
+        "name": "Luca Sartor",
+        "is_eligible": true,
+        "is_approved": true,
+        "approved_at": "2023-12-11T13:04:01.051724+00:00",
+        "approved_by": {
+            "name": "Fabio",
+            "surname": "Michieletto",
+            "email": "fabio.michieletto@edu.iisleviponti.it"
+        },
+        "created_at": "2023-12-08T17:49:41.367814+00:00",
+        "members": [
+            {
+                "id": 202879,
+                "user": {
+                    "id": 11863,
+                    "name": "Luca",
+                    "surname": "Sartor",
+                    "email": "luca.sartor@edu.iisleviponti.it",
+                    "birth_date": "2008-02-21",
+                    "gender": "M",
+                    "fiscal_code": ""
+                },
+                "role": null,
+                "class_year": 3,
+                "section": "CIN",
+                "created_at": "2023-12-08T17:49:41.371237+00:00"
+            }
+        ],
+        "school": {
+            "id": 1228,
+            "external_id": "VEIS02700X",
+            "name": "Levi-Ponti",
+            "type": "Istituto Istruzione Superiore",
+            "email": "veis02700x@istruzione.it",
+            "website": "www.itisdavinci.it",
+            "location": {
+                "name": "Istituto Istruzione Superiore Levi-Ponti",
+                "address": "Via Matteotti 42 A/1",
+                "postal_code": "30035",
+                "city": {
+                    "name": "Mirano",
+                    "province": {
+                        "id": "VE",
+                        "name": "Venezia",
+                        "region": {
+                            "id": "VEN",
+                            "name": "Veneto",
+                            "country": {
+                                "id": "IT",
+                                "name": "Italia"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "school_subscription": {
+            "id": 8917,
+            "created_at": "2023-12-04T13:14:25.605327+00:00",
+            "contact": {
+                "user": {
+                    "name": "Fabio",
+                    "surname": "Michieletto",
+                    "email": "fabio.michieletto@edu.iisleviponti.it"
+                }
+            }
+        }
+    },
+    {
+        "id": 192795,
+        "name": "Marco Schiavo",
+        "is_eligible": true,
+        "is_approved": true,
+        "approved_at": "2023-12-11T13:04:01.918540+00:00",
+        "approved_by": {
+            "name": "Fabio",
+            "surname": "Michieletto",
+            "email": "fabio.michieletto@edu.iisleviponti.it"
+        },
+        "created_at": "2023-12-08T13:51:25.494873+00:00",
+        "members": [
+            {
+                "id": 202753,
+                "user": {
+                    "id": 67627,
+                    "name": "Marco",
+                    "surname": "Schiavo",
+                    "email": "marco.schiavo@edu.iisleviponti.it",
+                    "birth_date": "2008-05-13",
+                    "gender": "M",
+                    "fiscal_code": ""
+                },
+                "role": null,
+                "class_year": 3,
+                "section": "AIN",
+                "created_at": "2023-12-08T13:51:25.499030+00:00"
+            }
+        ],
+        "school": {
+            "id": 1228,
+            "external_id": "VEIS02700X",
+            "name": "Levi-Ponti",
+            "type": "Istituto Istruzione Superiore",
+            "email": "veis02700x@istruzione.it",
+            "website": "www.itisdavinci.it",
+            "location": {
+                "name": "Istituto Istruzione Superiore Levi-Ponti",
+                "address": "Via Matteotti 42 A/1",
+                "postal_code": "30035",
+                "city": {
+                    "name": "Mirano",
+                    "province": {
+                        "id": "VE",
+                        "name": "Venezia",
+                        "region": {
+                            "id": "VEN",
+                            "name": "Veneto",
+                            "country": {
+                                "id": "IT",
+                                "name": "Italia"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "school_subscription": {
+            "id": 8917,
+            "created_at": "2023-12-04T13:14:25.605327+00:00",
+            "contact": {
+                "user": {
+                    "name": "Fabio",
+                    "surname": "Michieletto",
+                    "email": "fabio.michieletto@edu.iisleviponti.it"
+                }
+            }
+        }
+    }
+]
