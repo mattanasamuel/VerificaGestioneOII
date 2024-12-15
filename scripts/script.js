@@ -1,16 +1,15 @@
 
-let listaPartecipanti = [];
-let requestURL = "";
+var listaPartecipanti = [];
+var requestURL = "";
 const codiceScuola = "VEIS02700X";
 const elenco = document.getElementById("elenco");
-let selAnno = document.getElementById('sel-anno');
-selAnno.addEventListener("change", changeURLPath)
+var selAnno = document.getElementById('sel-anno');
 var listaStudentiFiltrati = []
 selAnno.addEventListener("change", getRemoteData)
 
-async function getRemoteData(path) {
-  console.log(selAnno.value)
-  console.log(path)
+async function getRemoteData() {
+  let path = URLPath();
+  console.log("path :" + path)
     try {
       // after this line, our function will wait for the `fetch()` call to be settled
       // the `fetch()` call will either return a Response or throw an error
@@ -23,12 +22,10 @@ async function getRemoteData(path) {
     } catch (error) {
       console.error(`Errore reperimento strutture recettive: ${error}`);
     }
-    
-    //caricare tabella in base alle selezioni
+
+
     loadDataSelected()
     console.log(listaStudentiFiltrati)
-    
-    //elenco.innerHTML = '';
     let tabella = document.createElement("table");
     let tabella_intestazione = document.createElement("thead")
     let tabella_intestazione_nome = document.createElement("th")
@@ -57,44 +54,52 @@ async function getRemoteData(path) {
     tabella_intestazione.appendChild(tabella_intestazione_sezione)
     tabella.appendChild(tabella_intestazione);
     tabella.classList.add("table", "table-striped")
-    //elenco.appendChild(tabella)
-
+    elenco.innerHTML = ''
+    elenco.appendChild(tabella)
+    //contenuto della tabella
     let tabella_contenuto = document.createElement("tbody");
     for(let studente of listaStudentiFiltrati)
     {
       let tabella_contenuto_riga = document.createElement("tr");
       let tabella_contenuto_riga_nome = document.createElement("td")
-      tabella_contenuto_riga_nome.textContent = studente.name
+      tabella_contenuto_riga_nome.textContent = studente.members[0].user.name
       tabella_contenuto_riga.appendChild(tabella_contenuto_riga_nome);
 
       let tabella_contenuto_riga_cognome = document.createElement("td")
-      tabella_contenuto_riga_cognome.textContent = studente.name
+      tabella_contenuto_riga_cognome.textContent = studente.members[0].user.surname
       tabella_contenuto_riga.appendChild(tabella_contenuto_riga_cognome);
       tabella_contenuto.appendChild(tabella_contenuto_riga);
+      
+      let tabella_contenuto_riga_email = document.createElement("td")
+      tabella_contenuto_riga_email.textContent = studente.members[0].user.email
+      tabella_contenuto_riga.appendChild(tabella_contenuto_riga_email);
+      tabella_contenuto.appendChild(tabella_contenuto_riga);
+      
+      let tabella_contenuto_riga_dataDiNascita = document.createElement("td")
+      tabella_contenuto_riga_dataDiNascita.textContent = studente.members[0].user.birth_date
+      tabella_contenuto_riga.appendChild(tabella_contenuto_riga_dataDiNascita);
+      tabella_contenuto.appendChild(tabella_contenuto_riga);
+
+      let tabella_contenuto_riga_classe = document.createElement("td")
+      tabella_contenuto_riga_classe.textContent = studente.members[0].class_year
+      tabella_contenuto_riga.appendChild(tabella_contenuto_riga_classe);
+      tabella_contenuto.appendChild(tabella_contenuto_riga);
+
+      let tabella_contenuto_riga_sezione = document.createElement("td")
+      tabella_contenuto_riga_sezione.textContent = studente.members[0].section
+      tabella_contenuto_riga.appendChild(tabella_contenuto_riga_sezione);
+      tabella_contenuto.appendChild(tabella_contenuto_riga);
+
+
     }
     tabella.appendChild(tabella_contenuto);
-
     elenco.appendChild(tabella);
-
-    
-
-
-
-
-
-
-
-
-    
   }
   
   //carica i dati in base alle selezioni
-  
-  
-  
-  
   function loadDataSelected(){
     //TODO
+    listaStudentiFiltrati = []
     for(let studente of listaPartecipanti)
     {
       if(studente.school.external_id == codiceScuola)
@@ -107,25 +112,32 @@ async function getRemoteData(path) {
     }
   }
 
+  //cambia l'url in base alla selezione fatta
   function URLPath()
   {
-    console.log(selAnno.)
+    console.log(selAnno.value)
     switch(selAnno.value)
     {
-      case 24:
+      case "24":
         return "json/partecipanti-oii24.json";
-        break;
       
-      case 23:
+      case "23":
         return "json/partecipanti-oii23.json";
-        break;
 
-      case 22:
+      case "22":
         return "json/partecipanti-oii22.json";
-        break;
+
+      default:
+        return "json/partecipanti-oii22.json";
     }
   }
-  getRemoteData(URLPath());
+  
+  
+  
+  
+  
+  //esecuzione
+  getRemoteData();
 
   
 
