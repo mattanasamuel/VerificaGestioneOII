@@ -4,8 +4,11 @@ var requestURL = "";
 const codiceScuola = "VEIS02700X";
 const elenco = document.getElementById("elenco");
 var selAnno = document.getElementById('sel-anno');
+var selClasse = document.getElementById('sel-classe')
 var listaStudentiFiltrati = []
 selAnno.addEventListener("change", getRemoteData)
+selClasse.addEventListener("change", getRemoteData)
+
 
 async function getRemoteData() {
   let path = URLPath();
@@ -106,7 +109,10 @@ async function getRemoteData() {
       {
         if(studente.created_at.substring(2, 4) == selAnno.value)
         {
-          listaStudentiFiltrati.push(studente);
+          if(studente.members[0].class_year == selClasse.value || selClasse.value === "all")
+          {
+            listaStudentiFiltrati.push(studente);
+          }
         }
       }
     }
