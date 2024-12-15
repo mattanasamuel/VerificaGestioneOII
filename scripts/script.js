@@ -1,17 +1,20 @@
 
-var listaPartecipanti = [];
-var requestURL = "json/partecipanti-oii24.json";
+let listaPartecipanti = [];
+let requestURL = "";
 const codiceScuola = "VEIS02700X";
 const elenco = document.getElementById("elenco");
-selAnno = document.getElementById('sel-anno');
+let selAnno = document.getElementById('sel-anno');
+selAnno.addEventListener("change", changeURLPath)
 var listaStudentiFiltrati = []
+selAnno.addEventListener("change", getRemoteData)
 
-
-async function getRemoteData() {
+async function getRemoteData(path) {
+  console.log(selAnno.value)
+  console.log(path)
     try {
       // after this line, our function will wait for the `fetch()` call to be settled
       // the `fetch()` call will either return a Response or throw an error
-      const response = await fetch(requestURL);
+      const response = await fetch(path);
       if (!response.ok) {
         throw new Error(`HTTP error: ${response.status}`);
       }
@@ -25,7 +28,7 @@ async function getRemoteData() {
     loadDataSelected()
     console.log(listaStudentiFiltrati)
     
-    
+    //elenco.innerHTML = '';
     let tabella = document.createElement("table");
     let tabella_intestazione = document.createElement("thead")
     let tabella_intestazione_nome = document.createElement("th")
@@ -102,13 +105,27 @@ async function getRemoteData() {
         }
       }
     }
-
-
-
   }
-  
 
-  getRemoteData();
+  function URLPath()
+  {
+    console.log(selAnno.)
+    switch(selAnno.value)
+    {
+      case 24:
+        return "json/partecipanti-oii24.json";
+        break;
+      
+      case 23:
+        return "json/partecipanti-oii23.json";
+        break;
+
+      case 22:
+        return "json/partecipanti-oii22.json";
+        break;
+    }
+  }
+  getRemoteData(URLPath());
 
   
 
